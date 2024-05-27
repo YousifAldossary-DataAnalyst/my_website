@@ -1,6 +1,6 @@
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
-import message from "./SVG/message.gif";
+import message from "./SVG/mail.svg";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -71,7 +71,7 @@ export const Contact = () => {
         whileInView="animate"
       >
         <motion.div className="textcotainer" variants={variants}>
-          <motion.h1 variants={variants}>Let's get in touch</motion.h1>
+          <motion.h1 variants={variants}> Let's get in touch</motion.h1>
           <motion.div className="items" variants={variants}>
             {Contactlist.map((item) => (
               <div key={item.id}>
