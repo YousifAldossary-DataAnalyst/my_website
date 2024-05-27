@@ -1,6 +1,6 @@
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
-import message from "./SVG/mail.svg";
+import message from "./SVG/Message.git";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
