@@ -86,7 +86,8 @@ export const Contact = () => {
           </motion.div>
         </motion.div>
         <div className="formContainer">
-          {/* <motion.div
+          {/* <motion.div>
+           <motion.div
             className="phoneSvg"
             initial={{ opacity: 1 }}
             whileInView={{ opacity: 0, x: 500 }}
