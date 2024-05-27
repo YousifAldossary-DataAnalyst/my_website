@@ -1,6 +1,6 @@
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
-// import message from "./SVG/message.gif";
+import message from "./SVG/message.gif";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -88,13 +88,13 @@ export const Contact = () => {
             whileInView={{ opacity: 0, x:500 }}
             transition={{ delay: 3, duration: 1 }}
           >
-{/*             <motion.img
+            <motion.img
               src={message}
               alt="loading..."
               initial={{ pathLength: 0 }}
               animate={isInView && { pathLength: 1 }}
               transition={{ delay: 3, duration: 1 }}
-            /> */}
+            />
           </motion.div>
           <motion.form
             onSubmit={sendEmail}
