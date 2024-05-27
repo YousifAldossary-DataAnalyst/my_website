@@ -1,14 +1,6 @@
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
-<<<<<<< HEAD
-<<<<<<< HEAD
 import message from "./SVG/mail.svg";
-=======
-// import message from "./SVG/message.gif";
->>>>>>> 51f0593aedb9452775725a408095f82f6937d0e6
-=======
-import message from "./SVG/message.gif";
->>>>>>> 4996b9c7bc9b82fe40a6ab57a74269c4c3984b06
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -57,8 +49,12 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_gnwwwg2", "template_i8cux8b", formRef.current, "TSug4OIOqdVzwrBgc",
-        )
+      .sendForm(
+        "service_gnwwwg2",
+        "template_i8cux8b",
+        formRef.current,
+        "TSug4OIOqdVzwrBgc"
+      )
       .then(
         () => {
           setSuccess(true);
@@ -93,7 +89,7 @@ export const Contact = () => {
           <motion.div
             className="phoneSvg"
             initial={{ opacity: 1 }}
-            whileInView={{ opacity: 0, x:500 }}
+            whileInView={{ opacity: 0, x: 500 }}
             transition={{ delay: 3, duration: 1 }}
           >
             <motion.img
