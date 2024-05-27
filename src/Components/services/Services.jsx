@@ -100,6 +100,30 @@ export const Services = () => {
           }}
         >
           <h2>
+            Web Development Design and Deployment.
+            <u> Starting from 6,000 SAR/Month</u>
+          </h2>
+          <p>
+            <li className="li"> Desiging your website in Figma based on your needs. </li>
+            <li className="li"> Advise on which web framework is best for your project. </li>
+            <li className="li"> Animations.</li>
+            <li className="li"> Logos. </li>
+            <li className="li"> Deployment. </li>
+            <li className="li"> 6 months of monthly maintenance. </li>
+            <li className="li"> Consultation. </li>
+          </p>
+          <button onClick={() => openInNewTab('https://calendly.com/reacttest')}>Book a Meeting</button>
+        </motion.div>
+
+        <motion.div
+          className="box"
+          whileHover={{
+            backgroundColor: "lightgrey",
+            color: "black",
+            scale: 1.03,
+          }}
+        >
+          <h2>
             Straight "A" Learners <u>Free Service</u>
           </h2>
           <p>
