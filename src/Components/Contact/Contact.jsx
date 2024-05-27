@@ -86,7 +86,6 @@ export const Contact = () => {
           </motion.div>
         </motion.div>
         <div className="formContainer">
-          {/* <motion.div>
            <motion.div
             className="phoneSvg"
             initial={{ opacity: 1 }}
@@ -100,13 +99,13 @@ export const Contact = () => {
               animate={isInView && { pathLength: 1 }}
               transition={{ delay: 3, duration: 1 }}
             />
-          </motion.div> */}
+          </motion.div>
           <motion.form
             onSubmit={sendEmail}
             ref={formRef}
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.7, duration: 1 }}
+            transition={{ delay: 3, duration: 1 }}
           >
             <input type="text" required placeholder="Name" name="name" />
             <input type="email" required placeholder="Email" name="email" />
