@@ -20,7 +20,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Operating Officer",
+        title: "Business Development Analyst",
         company_name: "Astro SA",
         icon: astro,
         iconBg: "#B748FF",
